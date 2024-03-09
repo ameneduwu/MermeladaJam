@@ -1893,6 +1893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 32515501}
+  efect: {fileID: 8627872012803264968, guid: 5cccf70c3e26d2745b636a97e79ae071, type: 3}
 --- !u!1 &1388015639
 GameObject:
   m_ObjectHideFlags: 0

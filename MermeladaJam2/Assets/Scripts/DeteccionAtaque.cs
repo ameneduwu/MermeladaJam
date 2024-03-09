@@ -6,6 +6,7 @@ using UnityEngine;
 public class DeteccionAtaque : MonoBehaviour
 {
     public CinemachineVirtualCamera virtualCamera;
+    public GameObject efect;
     private CinemachineBasicMultiChannelPerlin noise;
 
     private void Start()
@@ -17,6 +18,7 @@ public class DeteccionAtaque : MonoBehaviour
     {
         if (collision.CompareTag("Npc"))
         {
+            Instantiate(efect, collision.ClosestPoint(transform.position),Quaternion.identity);
             collision.gameObject.GetComponent<Enemigo>().Dead();
             noise.m_AmplitudeGain = 2.0f;
             Invoke("FrequencyDown",0.4f);
