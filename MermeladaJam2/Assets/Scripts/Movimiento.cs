@@ -17,11 +17,13 @@ public class Movimiento : MonoBehaviour
     private Vector2 mousePosition;
     private bool isDashing = false;
     private float timer = 50;
+    private Animator animator;
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -51,13 +53,14 @@ public class Movimiento : MonoBehaviour
             currentRotation.z = 180f;
 
             transform.rotation = Quaternion.Euler(currentRotation);
-
+            animator.SetBool("Caminar", true);
             return;
         }
 
         if (GameManager.instance.stop == true)
         {
             rb.velocity = Vector2.zero;
+            animator.SetBool("Caminar", false);
             return;
         }
         if (isDashing == true)
@@ -68,6 +71,15 @@ public class Movimiento : MonoBehaviour
         Vector2 movement = new Vector2(horizontalInput, verticalInput).normalized;
 
         rb.velocity = movement * speed;
+
+        if (movement!=Vector2.zero)
+        {
+            animator.SetBool("Caminar", true);
+        }
+        else
+        {
+            animator.SetBool("Caminar", false);
+        }
 
         Rotate();
     }

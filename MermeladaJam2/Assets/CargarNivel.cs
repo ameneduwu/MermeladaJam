@@ -7,6 +7,6 @@ public class CargarNivel : MonoBehaviour
 {
     public void Siguiente()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

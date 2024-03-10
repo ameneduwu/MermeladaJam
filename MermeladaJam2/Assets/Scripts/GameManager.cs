@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (enemigosDerrotados >= enemigos.Length&& primerVez==false)
+        if (enemigosDerrotados >= enemigos.Length&& primerVez==false&& dialogo!=null)
         {
             primerVez = true;
             Evento();
