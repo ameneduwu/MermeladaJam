@@ -18,6 +18,7 @@ public class DeteccionAtaque : MonoBehaviour
     {
         if (collision.CompareTag("Npc"))
         {
+            GameManager.instance.enemigosDerrotados++;
             Instantiate(efect, collision.ClosestPoint(transform.position),Quaternion.identity);
             collision.gameObject.GetComponent<Enemigo>().Dead();
             noise.m_AmplitudeGain = 3.0f;

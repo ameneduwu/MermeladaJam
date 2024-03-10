@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Perro : MonoBehaviour
 {
+    bool move = false;
     Rigidbody2D rb;
+    public AudioSource audioSource;
 
     private void Start()
     {
@@ -13,7 +15,7 @@ public class Perro : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (GameManager.instance.final == true)
+        if (GameManager.instance.final == true || move == true)
         {
             rb.velocity = new Vector2(-1, 0).normalized * 4;
 
@@ -25,5 +27,10 @@ public class Perro : MonoBehaviour
 
             return;
         }
+    }
+
+    public void ActiveMove()
+    {
+        move = true;
     }
 }
