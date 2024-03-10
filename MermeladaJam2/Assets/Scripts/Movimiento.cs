@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Movimiento : MonoBehaviour
@@ -28,7 +29,7 @@ public class Movimiento : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
-        if (Input.GetMouseButtonDown(0) && timer > dashCuldown)
+        if (Input.GetMouseButtonDown(0) && timer > dashCuldown&& GameManager.instance.stop == false)
         {
             timer = 0;
             StartCoroutine(Dash());
@@ -41,6 +42,19 @@ public class Movimiento : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (GameManager.instance.final==true)
+        {
+            rb.velocity = new Vector2(-1, 0).normalized * speed;
+
+            Vector3 currentRotation = transform.rotation.eulerAngles;
+
+            currentRotation.z = 180f;
+
+            transform.rotation = Quaternion.Euler(currentRotation);
+
+            return;
+        }
+
         if (GameManager.instance.stop == true)
         {
             rb.velocity = Vector2.zero;

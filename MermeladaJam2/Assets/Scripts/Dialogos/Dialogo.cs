@@ -13,6 +13,10 @@ public class Dialogo : MonoBehaviour
     public float textSpeed;
     public bool animacion = false;
     public Animator animator;
+    public bool sinEntrada = false;
+    public bool animacionSalir = false;
+    public bool fundidoNegro = false;
+    public Animator fundido;
 
     private Image sr;
     private int index;
@@ -57,11 +61,19 @@ public class Dialogo : MonoBehaviour
         {
             return;
         }
+        if (sinEntrada==true&& start==false)
+        {
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0.45f);
+            StartDialogue();
+            start = true;
+        }
+
         if (sr.color.a < 0.5f)
         {
             GameManager.instance.stop = true;
             sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, sr.color.a+0.5f*Time.fixedDeltaTime);
         }
+
         if (sr.color.a >= 0.45f&&start==false&& end == false)
         {
             StartDialogue();
@@ -102,6 +114,14 @@ public class Dialogo : MonoBehaviour
             else
             {
                 GameManager.instance.stop = false;
+                if (animacionSalir==true)
+                {
+                    GameManager.instance.final = true;
+                }
+                if (fundidoNegro==true)
+                {
+                    fundido.SetTrigger("Inicio");
+                }
                 gameObject.SetActive(false);
             }
         }

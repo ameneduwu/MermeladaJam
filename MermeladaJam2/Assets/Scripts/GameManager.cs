@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public Transform player;
     public bool stop = false;
     public bool stopPeople = true;
+    public bool final = false;
 
     void Awake()
     {
