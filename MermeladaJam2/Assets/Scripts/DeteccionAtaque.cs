@@ -20,8 +20,8 @@ public class DeteccionAtaque : MonoBehaviour
         {
             Instantiate(efect, collision.ClosestPoint(transform.position),Quaternion.identity);
             collision.gameObject.GetComponent<Enemigo>().Dead();
-            noise.m_AmplitudeGain = 2.0f;
-            Invoke("FrequencyDown",0.4f);
+            noise.m_AmplitudeGain = 3.0f;
+            Invoke("FrequencyDown",0.25f);
         }
     }
     private void FrequencyDown()
