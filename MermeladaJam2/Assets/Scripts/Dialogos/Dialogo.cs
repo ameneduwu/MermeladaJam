@@ -17,6 +17,8 @@ public class Dialogo : MonoBehaviour
     public bool animacionSalir = false;
     public bool fundidoNegro = false;
     public Animator fundido;
+    public GameObject muerte;
+    public AudioSource aud;
 
     private Image sr;
     private int index;
@@ -83,6 +85,7 @@ public class Dialogo : MonoBehaviour
 
     public void StartDialogue()
     {
+        muerte.SetActive(true);
         GameManager.instance.stop = true;
         index = 0;
         StartCoroutine(TypeLine());
@@ -92,6 +95,7 @@ public class Dialogo : MonoBehaviour
     {
         foreach (char c in lines[index].ToCharArray())
         {
+            aud.Play();
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
@@ -107,6 +111,7 @@ public class Dialogo : MonoBehaviour
         }
         else
         {
+            muerte.SetActive(false);
             if (animacion==true)
             {
                 StartCoroutine(AnimationDialog());
@@ -123,6 +128,7 @@ public class Dialogo : MonoBehaviour
                     fundido.SetTrigger("Inicio");
                 }
                 gameObject.SetActive(false);
+                GameManager.instance.eventosRealizados++;
             }
         }
     }
@@ -133,6 +139,7 @@ public class Dialogo : MonoBehaviour
         virtualCamera.Follow = animator.transform;
         
         textComponent.text = string.Empty;
+        muerte.SetActive(false);
         sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0);
 
         yield return new WaitForSeconds(0.1f);
@@ -143,6 +150,7 @@ public class Dialogo : MonoBehaviour
 
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
 
+        GameManager.instance.eventosRealizados++;
         GameManager.instance.stop = false;
         virtualCamera.Follow = originCamera;
         gameObject.SetActive(false);

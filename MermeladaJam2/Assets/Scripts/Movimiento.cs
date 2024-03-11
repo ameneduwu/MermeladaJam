@@ -18,12 +18,14 @@ public class Movimiento : MonoBehaviour
     private bool isDashing = false;
     private float timer = 50;
     private Animator animator;
+    private AudioSource audioSource;
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -34,7 +36,12 @@ public class Movimiento : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && timer > dashCuldown&& GameManager.instance.stop == false)
         {
             timer = 0;
+            if (audioSource!=null)
+            {
+                audioSource.Play();
+            }
             StartCoroutine(Dash());
+            animator.SetBool("Caminar", false);
         }
 
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -46,11 +53,11 @@ public class Movimiento : MonoBehaviour
     {
         if (GameManager.instance.final==true)
         {
-            rb.velocity = new Vector2(-1, 0).normalized * speed;
+            rb.velocity = new Vector2(0, 1).normalized * speed;
 
             Vector3 currentRotation = transform.rotation.eulerAngles;
 
-            currentRotation.z = 180f;
+            currentRotation.z = 90f;
 
             transform.rotation = Quaternion.Euler(currentRotation);
             animator.SetBool("Caminar", true);
@@ -87,12 +94,10 @@ public class Movimiento : MonoBehaviour
     private void Rotate()
     {
         Vector3 cursorPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        cursorPosition.z = 0f; // Asegúrate de que el cursor esté en el plano Z=0
+        cursorPosition.z = 0f;
 
-        // Calcular la dirección hacia el cursor
         Vector3 direction = cursorPosition - transform.position;
 
-        // Rotar el objeto hacia esa dirección
         if (direction != Vector3.zero)
         {
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;

@@ -241,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.679767
@@ -255,7 +259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7535381
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -267,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.65740424
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -279,8 +283,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -82.204
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -486,6 +502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.542205
@@ -526,6 +546,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1061,6 +1093,18 @@ PrefabInstance:
       value: Muerte
       objectReference: {fileID: 0}
     - target: {fileID: 3640029719626222875, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      propertyPath: dos
+      value: 
+      objectReference: {fileID: 8300000, guid: 94ca935a96641da44ba0f78066533d41, type: 3}
+    - target: {fileID: 3640029719626222875, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      propertyPath: uno
+      value: 
+      objectReference: {fileID: 8300000, guid: ba4f7a92ed6108646b276869a3675c60, type: 3}
+    - target: {fileID: 3640029719626222875, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      propertyPath: auso
+      value: 
+      objectReference: {fileID: 806782898}
+    - target: {fileID: 3640029719626222875, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
       propertyPath: virtualCamera
       value: 
       objectReference: {fileID: 32515501}
@@ -1106,9 +1150,116 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8337903737437733064, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 806782897}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 63801188193527067, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 284242828}
   m_SourcePrefab: {fileID: 100100000, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+--- !u!1 &284242827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 63801188193527067, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+  m_PrefabInstance: {fileID: 284242826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &284242828
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284242827}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 8b8e34563f9821a41bb034880c7efd8e, type: 2}
+  m_audioClip: {fileID: 8300000, guid: fae55c8062da0294dbd401313337f9e0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.35
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &301396358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1121,6 +1272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9736881
@@ -1135,7 +1290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9094418
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1147,7 +1302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.41583127
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1159,8 +1314,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -49.143
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1188,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2515364
@@ -1202,7 +1373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9586682
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1214,7 +1385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.28452647
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1226,8 +1397,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 33.061
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1255,6 +1438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.4844522
@@ -1295,6 +1482,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1452,6 +1651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.030372
@@ -1466,7 +1669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8928751
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1478,7 +1681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.45030457
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1490,8 +1693,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -53.526
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1519,6 +1734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.566989
@@ -1559,6 +1778,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1767,6 +1998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.339844
@@ -1781,7 +2016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.885255
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1793,7 +2028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.4651061
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1805,8 +2040,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -55.434
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1912,6 +2159,8 @@ MonoBehaviour:
   animacionSalir: 0
   fundidoNegro: 1
   fundido: {fileID: 764687175}
+  numeroEventos: 4
+  eventosRealizados: 0
 --- !u!1001 &480491939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1924,6 +2173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.901535
@@ -1964,6 +2217,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2053,6 +2318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.38615
@@ -2093,6 +2362,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2120,6 +2401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.19053
@@ -2134,7 +2419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8528665
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2146,7 +2431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.5221291
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2158,8 +2443,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 62.95
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2399,6 +2696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.050235
@@ -2439,6 +2740,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2466,6 +2779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.2065973
@@ -2480,7 +2797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7535381
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2492,7 +2809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.65740424
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2504,8 +2821,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -82.204
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2533,6 +2862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.992486
@@ -2573,6 +2906,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2730,6 +3075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.85628
@@ -2744,7 +3093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8528665
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2756,7 +3105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.5221291
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2768,8 +3117,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 62.95
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2797,6 +3158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.096853
@@ -2811,7 +3176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8217717
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2823,7 +3188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.56981695
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2835,8 +3200,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -69.475
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2962,6 +3339,134 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5538ce1214096584e9b0b1aa727076f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &806782896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806782897}
+  - component: {fileID: 806782898}
+  m_Layer: 0
+  m_Name: audioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806782897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806782896}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 83519520}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &806782898
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806782896}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 8b8e34563f9821a41bb034880c7efd8e, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &824937949
 GameObject:
   m_ObjectHideFlags: 0
@@ -3104,6 +3609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.194089
@@ -3118,7 +3627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9586682
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3130,7 +3639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.28452647
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3142,8 +3651,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 33.061
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3171,6 +3692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.219711
@@ -3185,7 +3710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9266832
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3197,7 +3722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.37584352
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3209,8 +3734,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -44.153
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3238,6 +3775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7497892
@@ -3252,7 +3793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8481009
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3264,7 +3805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.52983487
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3276,8 +3817,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 63.989
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3521,6 +4074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.008872
@@ -3561,6 +4118,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3588,6 +4157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5182695
@@ -3628,6 +4201,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3655,6 +4240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.140433
@@ -3669,7 +4258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.688396
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3681,7 +4270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.7253351
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3693,8 +4282,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 92.993
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3886,6 +4487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -388748982, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6384
@@ -3900,7 +4505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.4303194
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3912,7 +4517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.9026767
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3924,8 +4529,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -230.976
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f39f062e49b70e94c9f9c91f8bcb7b1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4397,6 +5014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.37576
@@ -4437,6 +5058,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4570,6 +5203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6847095
@@ -4610,6 +5247,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4637,6 +5286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.718727
@@ -4677,6 +5330,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4704,6 +5369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.865297
@@ -4718,7 +5387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.96270686
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4730,7 +5399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.2705469
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4742,8 +5411,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -31.394
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4877,6 +5558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -695438662, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.771022
@@ -4891,7 +5576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8528665
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4903,7 +5588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.5221291
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4915,8 +5600,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 62.95
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 964b70fb186d96144bc856637706b677, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5204,6 +5901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.1254225
@@ -5244,6 +5945,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5271,6 +5984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.279346
@@ -5285,7 +6002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.66115636
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5297,7 +6014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.75024813
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5309,8 +6026,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 97.224
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5420,6 +6149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.226752
@@ -5460,6 +6193,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181311238835766366, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5700,6 +6445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3293356836849814301, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1011667469, guid: 1d6980e37edb8724d8902c36ee7569e0, type: 3}
     - target: {fileID: 3463874702016743394, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.6242
@@ -5740,6 +6489,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7716194064022826255, guid: 1a04a9420aedf2640adce06bcbd04d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bac6aea553892140b5c65cda69c1742, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

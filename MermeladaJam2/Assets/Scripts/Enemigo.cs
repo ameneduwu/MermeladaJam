@@ -9,23 +9,29 @@ public class Enemigo : MonoBehaviour
     public float rotationSpeed = 5;
     private Transform player;
     private Rigidbody2D rb;
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameManager.instance.player;
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
     {
         if (GameManager.instance.stop == true|| GameManager.instance.stopPeople==true)
         {
+            animator.ResetTrigger("a");
+            animator.SetTrigger("b");
             rb.velocity = Vector2.zero;
             return;
         }
 
         if (player != null)
         {
+            animator.ResetTrigger("b");
+            animator.SetTrigger("a");
             Vector2 direction = player.position - transform.position;
             direction.Normalize(); 
 

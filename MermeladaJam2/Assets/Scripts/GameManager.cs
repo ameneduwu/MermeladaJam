@@ -23,6 +23,9 @@ public class GameManager : MonoBehaviour
     public bool fundidoNegro = false;
     public Animator fundido;
 
+    public float numeroEventos = 4;
+    public float eventosRealizados = 0;
+
     private bool primerVez = false;
     void Awake()
     {
@@ -33,6 +36,13 @@ public class GameManager : MonoBehaviour
     {
         if (enemigosDerrotados >= enemigos.Length&& primerVez==false&& dialogo!=null)
         {
+            primerVez = true;
+            Evento();
+        }
+
+        if (eventosRealizados >= numeroEventos && primerVez == false && dialogo != null)
+        {
+            MusicManager.instance.bajarmusica = true;
             primerVez = true;
             Evento();
         }
