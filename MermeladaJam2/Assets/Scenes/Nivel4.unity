@@ -1092,6 +1092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muerte
       objectReference: {fileID: 0}
+    - target: {fileID: 799437932275081414, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      propertyPath: dashCuldown
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3640029719626222875, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
       propertyPath: dos
       value: 
@@ -1108,6 +1112,10 @@ PrefabInstance:
       propertyPath: virtualCamera
       value: 
       objectReference: {fileID: 32515501}
+    - target: {fileID: 4547830269847468408, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      propertyPath: tiempo
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8337903737437733064, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.501
@@ -2150,9 +2158,10 @@ MonoBehaviour:
   - {fileID: 1372235019}
   - {fileID: 1971327422}
   - {fileID: 1650868511}
+  - {fileID: 1650868511}
   dialogo: {fileID: 2937621514974617719, guid: f272de4a7bc429c409d3b0226b33e206, type: 3}
   textoDialogo:
-  - A partir de ahora me hare pasar por humano y vivire la vida de un humano
+  - "A partir de hoy me har\xE9 pasar por un humano, vivir\xE9 como ellos."
   animacion: 0
   animator: {fileID: 0}
   sinEntrada: 0

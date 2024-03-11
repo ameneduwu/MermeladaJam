@@ -593,7 +593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogo: {fileID: 2937621514974617719, guid: f272de4a7bc429c409d3b0226b33e206, type: 3}
   textoDialogo:
-  - Podria darme una pizza?
+  - "\xBFPodr\xEDa darme una porci\xF3n de pizza, por favor?"
   - ...
   - Se me acaba de caer al suelo...
   animacion: 0
@@ -1480,8 +1480,9 @@ MonoBehaviour:
   - {fileID: 0}
   dialogo: {fileID: 2937621514974617719, guid: f272de4a7bc429c409d3b0226b33e206, type: 3}
   textoDialogo:
-  - Bueno... tendre que ser la muerte PARA SIEMPRE
-  - Ese es mi destino
+  - "Bueno... nada de esto funciona, ser humano no es una opci\xF3n. Tendr\xE9 que
+    seguir siendo la muerte PARA SIEMPRE."
+  - Ese es mi destino.
   animacion: 0
   animator: {fileID: 0}
   sinEntrada: 0
@@ -4008,7 +4009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogo: {fileID: 2937621514974617719, guid: f272de4a7bc429c409d3b0226b33e206, type: 3}
   textoDialogo:
-  - Hazme reir payaso
+  - Hazme reir payaso.
   animacion: 1
   animator: {fileID: 1427137182}
   sinEntrada: 1
@@ -4564,7 +4565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogo: {fileID: 2937621514974617719, guid: f272de4a7bc429c409d3b0226b33e206, type: 3}
   textoDialogo:
-  - Deme UNA CERVEZA?
+  - "\xBFCu\xE1nto cuesta UNA CERVEZA?"
   animacion: 1
   animator: {fileID: 1721505381}
   sinEntrada: 1
@@ -5249,7 +5250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogo: {fileID: 2937621514974617719, guid: f272de4a7bc429c409d3b0226b33e206, type: 3}
   textoDialogo:
-  - Voy a hacerme pasar por humano y asi podre ser feliz
+  - "Me har\xE9 pasar por un humano, as\xED podr\xE9 ser feliz."
   animacion: 0
   animator: {fileID: 0}
   sinEntrada: 1

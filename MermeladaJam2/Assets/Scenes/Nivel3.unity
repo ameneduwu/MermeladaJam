@@ -6022,7 +6022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogo: {fileID: 2937621514974617719, guid: f272de4a7bc429c409d3b0226b33e206, type: 3}
   textoDialogo:
-  - Estoy cansado de tener que hacer siempre lo mismo
+  - Estoy cansado de tener que hacer siempre lo mismo.
   - Siempre tengo que MATARLOS A TODOS...
   animacion: 0
   animator: {fileID: 0}
@@ -6249,6 +6249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muerte
       objectReference: {fileID: 0}
+    - target: {fileID: 799437932275081414, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      propertyPath: dashCuldown
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3640029719626222875, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
       propertyPath: dos
       value: 
@@ -6265,6 +6269,10 @@ PrefabInstance:
       propertyPath: virtualCamera
       value: 
       objectReference: {fileID: 32515501}
+    - target: {fileID: 4547830269847468408, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
+      propertyPath: tiempo
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8337903737437733064, guid: 8b6f441ac53b9d84c9fdc30ae1e16629, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.501

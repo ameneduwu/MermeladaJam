@@ -27,7 +27,9 @@ public class MusicManager : MonoBehaviour
         if (level == 0)
         {
             aus.volume = 0.3f;
-            aus.Stop(); 
+            aus.Stop();
+            aus.clip = menu;
+            aus.Play();
         }
         else
         {

@@ -355,12 +355,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'CREDITOS
 
-    Game Desaing: Ameneduwu
+    Game Desing: Ameneduwu
 
     Programador: Ameneduwu
 
     Artista:
-    GalletasRancias'
+    nubee_tormenta'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cbcff3182f52062469a769df9bd9bbca, type: 2}
   m_sharedMaterial: {fileID: 2346673656818876923, guid: cbcff3182f52062469a769df9bd9bbca, type: 2}
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aus: {fileID: 1362747413}
-  menu: {fileID: 0}
+  menu: {fileID: 8300000, guid: 58a4de2f1da498947861fb4072a26a23, type: 3}
   accion: {fileID: 8300000, guid: f0fc0fb67edd94045b8ebec804a5c86c, type: 3}
   chil: {fileID: 8300000, guid: 3c60ac8b3ba541146b62edcf9b8e1d07, type: 3}
   bajarmusica: 0
@@ -1648,8 +1648,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 8b8e34563f9821a41bb034880c7efd8e, type: 2}
-  m_audioClip: {fileID: 8300000, guid: f0fc0fb67edd94045b8ebec804a5c86c, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 58a4de2f1da498947861fb4072a26a23, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
